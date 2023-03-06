@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0520E68329B6996D004EE569 /* watchtooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E68229B6996D004EE569 /* watchtooterApp.swift */; };
+		0520E68529B6996D004EE569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E68429B6996D004EE569 /* ContentView.swift */; };
+		0520E68729B6996F004EE569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0520E68629B6996F004EE569 /* Assets.xcassets */; };
+		0520E68A29B6996F004EE569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0520E68929B6996F004EE569 /* Preview Assets.xcassets */; };
+		0520E69429B6996F004EE569 /* watchtooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E69329B6996F004EE569 /* watchtooterTests.swift */; };
+		0520E69E29B6996F004EE569 /* watchtooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E69D29B6996F004EE569 /* watchtooterUITests.swift */; };
+		0520E6A029B6996F004EE569 /* watchtooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E69F29B6996F004EE569 /* watchtooterUITestsLaunchTests.swift */; };
+		0520E6A629B6996F004EE569 /* watchtooter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0520E6A529B6996F004EE569 /* watchtooter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0520E6AB29B6996F004EE569 /* watchtooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E6AA29B6996F004EE569 /* watchtooterApp.swift */; };
+		0520E6AD29B6996F004EE569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E6AC29B6996F004EE569 /* ContentView.swift */; };
+		0520E6AF29B69970004EE569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0520E6AE29B69970004EE569 /* Assets.xcassets */; };
+		0520E6B229B69970004EE569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0520E6B129B69970004EE569 /* Preview Assets.xcassets */; };
+		0520E6BC29B69970004EE569 /* watchtooter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E6BB29B69970004EE569 /* watchtooter_Watch_AppTests.swift */; };
+		0520E6C629B69970004EE569 /* watchtooter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E6C529B69970004EE569 /* watchtooter_Watch_AppUITests.swift */; };
+		0520E6C829B69970004EE569 /* watchtooter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520E6C729B69970004EE569 /* watchtooter_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0520E69029B6996F004EE569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0520E67729B6996D004EE569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0520E67E29B6996D004EE569;
+			remoteInfo = watchtooter;
+		};
+		0520E69A29B6996F004EE569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0520E67729B6996D004EE569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0520E67E29B6996D004EE569;
+			remoteInfo = watchtooter;
+		};
+		0520E6A729B6996F004EE569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0520E67729B6996D004EE569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0520E6A429B6996F004EE569;
+			remoteInfo = "watchtooter Watch App";
+		};
+		0520E6B829B69970004EE569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0520E67729B6996D004EE569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0520E6A429B6996F004EE569;
+			remoteInfo = "watchtooter Watch App";
+		};
+		0520E6C229B69970004EE569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0520E67729B6996D004EE569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0520E6A429B6996F004EE569;
+			remoteInfo = "watchtooter Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0520E6CE29B69970004EE569 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0520E6A629B6996F004EE569 /* watchtooter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0520E67F29B6996D004EE569 /* watchtooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchtooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0520E68229B6996D004EE569 /* watchtooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooterApp.swift; sourceTree = "<group>"; };
+		0520E68429B6996D004EE569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0520E68629B6996F004EE569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0520E68929B6996F004EE569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0520E68F29B6996F004EE569 /* watchtooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchtooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0520E69329B6996F004EE569 /* watchtooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooterTests.swift; sourceTree = "<group>"; };
+		0520E69929B6996F004EE569 /* watchtooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchtooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0520E69D29B6996F004EE569 /* watchtooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooterUITests.swift; sourceTree = "<group>"; };
+		0520E69F29B6996F004EE569 /* watchtooterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0520E6A529B6996F004EE569 /* watchtooter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchtooter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0520E6AA29B6996F004EE569 /* watchtooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooterApp.swift; sourceTree = "<group>"; };
+		0520E6AC29B6996F004EE569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0520E6AE29B69970004EE569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0520E6B129B69970004EE569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0520E6B729B69970004EE569 /* watchtooter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchtooter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0520E6BB29B69970004EE569 /* watchtooter_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooter_Watch_AppTests.swift; sourceTree = "<group>"; };
+		0520E6C129B69970004EE569 /* watchtooter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchtooter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0520E6C529B69970004EE569 /* watchtooter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooter_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		0520E6C729B69970004EE569 /* watchtooter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtooter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0520E67C29B6996D004EE569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E68C29B6996F004EE569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E69629B6996F004EE569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6A229B6996F004EE569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6B429B69970004EE569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6BE29B69970004EE569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0520E67629B6996D004EE569 = {
+			isa = PBXGroup;
+			children = (
+				0520E68129B6996D004EE569 /* watchtooter */,
+				0520E69229B6996F004EE569 /* watchtooterTests */,
+				0520E69C29B6996F004EE569 /* watchtooterUITests */,
+				0520E6A929B6996F004EE569 /* watchtooter Watch App */,
+				0520E6BA29B69970004EE569 /* watchtooter Watch AppTests */,
+				0520E6C429B69970004EE569 /* watchtooter Watch AppUITests */,
+				0520E68029B6996D004EE569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0520E68029B6996D004EE569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0520E67F29B6996D004EE569 /* watchtooter.app */,
+				0520E68F29B6996F004EE569 /* watchtooterTests.xctest */,
+				0520E69929B6996F004EE569 /* watchtooterUITests.xctest */,
+				0520E6A529B6996F004EE569 /* watchtooter Watch App.app */,
+				0520E6B729B69970004EE569 /* watchtooter Watch AppTests.xctest */,
+				0520E6C129B69970004EE569 /* watchtooter Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0520E68129B6996D004EE569 /* watchtooter */ = {
+			isa = PBXGroup;
+			children = (
+				0520E68229B6996D004EE569 /* watchtooterApp.swift */,
+				0520E68429B6996D004EE569 /* ContentView.swift */,
+				0520E68629B6996F004EE569 /* Assets.xcassets */,
+				0520E68829B6996F004EE569 /* Preview Content */,
+			);
+			path = watchtooter;
+			sourceTree = "<group>";
+		};
+		0520E68829B6996F004EE569 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0520E68929B6996F004EE569 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0520E69229B6996F004EE569 /* watchtooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0520E69329B6996F004EE569 /* watchtooterTests.swift */,
+			);
+			path = watchtooterTests;
+			sourceTree = "<group>";
+		};
+		0520E69C29B6996F004EE569 /* watchtooterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0520E69D29B6996F004EE569 /* watchtooterUITests.swift */,
+				0520E69F29B6996F004EE569 /* watchtooterUITestsLaunchTests.swift */,
+			);
+			path = watchtooterUITests;
+			sourceTree = "<group>";
+		};
+		0520E6A929B6996F004EE569 /* watchtooter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0520E6AA29B6996F004EE569 /* watchtooterApp.swift */,
+				0520E6AC29B6996F004EE569 /* ContentView.swift */,
+				0520E6AE29B69970004EE569 /* Assets.xcassets */,
+				0520E6B029B69970004EE569 /* Preview Content */,
+			);
+			path = "watchtooter Watch App";
+			sourceTree = "<group>";
+		};
+		0520E6B029B69970004EE569 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0520E6B129B69970004EE569 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0520E6BA29B69970004EE569 /* watchtooter Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0520E6BB29B69970004EE569 /* watchtooter_Watch_AppTests.swift */,
+			);
+			path = "watchtooter Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0520E6C429B69970004EE569 /* watchtooter Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0520E6C529B69970004EE569 /* watchtooter_Watch_AppUITests.swift */,
+				0520E6C729B69970004EE569 /* watchtooter_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "watchtooter Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0520E67E29B6996D004EE569 /* watchtooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0520E6CF29B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter" */;
+			buildPhases = (
+				0520E67B29B6996D004EE569 /* Sources */,
+				0520E67C29B6996D004EE569 /* Frameworks */,
+				0520E67D29B6996D004EE569 /* Resources */,
+				0520E6CE29B69970004EE569 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0520E6A829B6996F004EE569 /* PBXTargetDependency */,
+			);
+			name = watchtooter;
+			productName = watchtooter;
+			productReference = 0520E67F29B6996D004EE569 /* watchtooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0520E68E29B6996F004EE569 /* watchtooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0520E6D229B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooterTests" */;
+			buildPhases = (
+				0520E68B29B6996F004EE569 /* Sources */,
+				0520E68C29B6996F004EE569 /* Frameworks */,
+				0520E68D29B6996F004EE569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0520E69129B6996F004EE569 /* PBXTargetDependency */,
+			);
+			name = watchtooterTests;
+			productName = watchtooterTests;
+			productReference = 0520E68F29B6996F004EE569 /* watchtooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0520E69829B6996F004EE569 /* watchtooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0520E6D529B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooterUITests" */;
+			buildPhases = (
+				0520E69529B6996F004EE569 /* Sources */,
+				0520E69629B6996F004EE569 /* Frameworks */,
+				0520E69729B6996F004EE569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0520E69B29B6996F004EE569 /* PBXTargetDependency */,
+			);
+			name = watchtooterUITests;
+			productName = watchtooterUITests;
+			productReference = 0520E69929B6996F004EE569 /* watchtooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0520E6A429B6996F004EE569 /* watchtooter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0520E6CB29B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter Watch App" */;
+			buildPhases = (
+				0520E6A129B6996F004EE569 /* Sources */,
+				0520E6A229B6996F004EE569 /* Frameworks */,
+				0520E6A329B6996F004EE569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchtooter Watch App";
+			productName = "watchtooter Watch App";
+			productReference = 0520E6A529B6996F004EE569 /* watchtooter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0520E6B629B69970004EE569 /* watchtooter Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0520E6D829B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter Watch AppTests" */;
+			buildPhases = (
+				0520E6B329B69970004EE569 /* Sources */,
+				0520E6B429B69970004EE569 /* Frameworks */,
+				0520E6B529B69970004EE569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0520E6B929B69970004EE569 /* PBXTargetDependency */,
+			);
+			name = "watchtooter Watch AppTests";
+			productName = "watchtooter Watch AppTests";
+			productReference = 0520E6B729B69970004EE569 /* watchtooter Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0520E6C029B69970004EE569 /* watchtooter Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0520E6DB29B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter Watch AppUITests" */;
+			buildPhases = (
+				0520E6BD29B69970004EE569 /* Sources */,
+				0520E6BE29B69970004EE569 /* Frameworks */,
+				0520E6BF29B69970004EE569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0520E6C329B69970004EE569 /* PBXTargetDependency */,
+			);
+			name = "watchtooter Watch AppUITests";
+			productName = "watchtooter Watch AppUITests";
+			productReference = 0520E6C129B69970004EE569 /* watchtooter Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0520E67729B6996D004EE569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0520E67E29B6996D004EE569 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0520E68E29B6996F004EE569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0520E67E29B6996D004EE569;
+					};
+					0520E69829B6996F004EE569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0520E67E29B6996D004EE569;
+					};
+					0520E6A429B6996F004EE569 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0520E6B629B69970004EE569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0520E6A429B6996F004EE569;
+					};
+					0520E6C029B69970004EE569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0520E6A429B6996F004EE569;
+					};
+				};
+			};
+			buildConfigurationList = 0520E67A29B6996D004EE569 /* Build configuration list for PBXProject "watchtooter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0520E67629B6996D004EE569;
+			productRefGroup = 0520E68029B6996D004EE569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0520E67E29B6996D004EE569 /* watchtooter */,
+				0520E68E29B6996F004EE569 /* watchtooterTests */,
+				0520E69829B6996F004EE569 /* watchtooterUITests */,
+				0520E6A429B6996F004EE569 /* watchtooter Watch App */,
+				0520E6B629B69970004EE569 /* watchtooter Watch AppTests */,
+				0520E6C029B69970004EE569 /* watchtooter Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0520E67D29B6996D004EE569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E68A29B6996F004EE569 /* Preview Assets.xcassets in Resources */,
+				0520E68729B6996F004EE569 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E68D29B6996F004EE569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E69729B6996F004EE569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6A329B6996F004EE569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E6B229B69970004EE569 /* Preview Assets.xcassets in Resources */,
+				0520E6AF29B69970004EE569 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6B529B69970004EE569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6BF29B69970004EE569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0520E67B29B6996D004EE569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E68529B6996D004EE569 /* ContentView.swift in Sources */,
+				0520E68329B6996D004EE569 /* watchtooterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E68B29B6996F004EE569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E69429B6996F004EE569 /* watchtooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E69529B6996F004EE569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E69E29B6996F004EE569 /* watchtooterUITests.swift in Sources */,
+				0520E6A029B6996F004EE569 /* watchtooterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6A129B6996F004EE569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E6AD29B6996F004EE569 /* ContentView.swift in Sources */,
+				0520E6AB29B6996F004EE569 /* watchtooterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6B329B69970004EE569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E6BC29B69970004EE569 /* watchtooter_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0520E6BD29B69970004EE569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0520E6C629B69970004EE569 /* watchtooter_Watch_AppUITests.swift in Sources */,
+				0520E6C829B69970004EE569 /* watchtooter_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0520E69129B6996F004EE569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0520E67E29B6996D004EE569 /* watchtooter */;
+			targetProxy = 0520E69029B6996F004EE569 /* PBXContainerItemProxy */;
+		};
+		0520E69B29B6996F004EE569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0520E67E29B6996D004EE569 /* watchtooter */;
+			targetProxy = 0520E69A29B6996F004EE569 /* PBXContainerItemProxy */;
+		};
+		0520E6A829B6996F004EE569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0520E6A429B6996F004EE569 /* watchtooter Watch App */;
+			targetProxy = 0520E6A729B6996F004EE569 /* PBXContainerItemProxy */;
+		};
+		0520E6B929B69970004EE569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0520E6A429B6996F004EE569 /* watchtooter Watch App */;
+			targetProxy = 0520E6B829B69970004EE569 /* PBXContainerItemProxy */;
+		};
+		0520E6C329B69970004EE569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0520E6A429B6996F004EE569 /* watchtooter Watch App */;
+			targetProxy = 0520E6C229B69970004EE569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0520E6C929B69970004EE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0520E6CA29B69970004EE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0520E6CC29B69970004EE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchtooter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchtooter;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yamato3010.watchtooter;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		0520E6CD29B69970004EE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchtooter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchtooter;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yamato3010.watchtooter;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		0520E6D029B69970004EE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchtooter/Preview Content\"";
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchtooter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0520E6D129B69970004EE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchtooter/Preview Content\"";
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchtooter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0520E6D329B69970004EE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchtooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchtooter";
+			};
+			name = Debug;
+		};
+		0520E6D429B69970004EE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchtooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchtooter";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0520E6D629B69970004EE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = watchtooter;
+			};
+			name = Debug;
+		};
+		0520E6D729B69970004EE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamato3010.watchtooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = watchtooter;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0520E6D929B69970004EE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yamato3010.watchtooter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchtooter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchtooter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		0520E6DA29B69970004EE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yamato3010.watchtooter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchtooter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchtooter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		0520E6DC29B69970004EE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yamato3010.watchtooter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchtooter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		0520E6DD29B69970004EE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q729HV8A4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yamato3010.watchtooter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchtooter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0520E67A29B6996D004EE569 /* Build configuration list for PBXProject "watchtooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520E6C929B69970004EE569 /* Debug */,
+				0520E6CA29B69970004EE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0520E6CB29B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520E6CC29B69970004EE569 /* Debug */,
+				0520E6CD29B69970004EE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0520E6CF29B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520E6D029B69970004EE569 /* Debug */,
+				0520E6D129B69970004EE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0520E6D229B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520E6D329B69970004EE569 /* Debug */,
+				0520E6D429B69970004EE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0520E6D529B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520E6D629B69970004EE569 /* Debug */,
+				0520E6D729B69970004EE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0520E6D829B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520E6D929B69970004EE569 /* Debug */,
+				0520E6DA29B69970004EE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0520E6DB29B69970004EE569 /* Build configuration list for PBXNativeTarget "watchtooter Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0520E6DC29B69970004EE569 /* Debug */,
+				0520E6DD29B69970004EE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0520E67729B6996D004EE569 /* Project object */;
+}
